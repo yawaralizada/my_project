@@ -1,0 +1,306 @@
+/*welcome.blade.php*/
+div.content-wrapper{
+    background-color: rgb(33, 33, 33);
+    background-image: url('dist/img/resturant.jpg');
+}
+div.mycontent{
+    width:100%;
+    height: 2600px;
+    background-color: rgb(33, 33, 33);
+    margin-left: 1.5%;
+}
+div.mycontent img#first{
+    width: 95%;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    top:50px;
+    left:1%;
+}
+div.mycontent p#first{
+    text-align: center;
+    position: relative;
+    top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+div.mycontent p#first1{
+    text-align: center;
+    position: relative;
+    top:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+div.mycontent div.book{
+	width: 20%;
+	height: 300px;
+	background-color:rgb(33, 33, 33);
+	float:left;
+	margin-top: 100px;
+	margin-left: 35px;
+
+}
+div.mycontent div.text{
+    width: 100%;
+	height: 300px;
+	background-color:rgb(0, 0, 0);
+	float:left;
+	margin-top: 100px;
+	margin-left: -1.5%;
+    border-radius: 10px;
+}
+div.mycontent div.text h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+div.mycontent div.text p{
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+div.mycontent div.text img{
+    width:42%;
+    float: left;
+    border-radius: 10px;
+}
+div.mycontent div.text img#myrest{
+    height: 300px;
+}
+div.mycontent div.text h3{
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 3%;
+}
+div.mycontent div.text ul li{
+    color:rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 5%;
+}
+div.mycontent div.text a{
+    position: relative;
+    left:10%;
+}
+div.mycontent div.book div.image img{
+	width: 100%;
+	height:260px;
+    border-radius: 10px;
+}
+div.mycontent div.book a input{
+	margin-left: 25%;
+	margin-top: 5px;
+	border:1px solid rgb(33, 33, 33);
+    background-color: rgb(33, 33, 33);
+	width:50%;
+	height:30px;
+	border-radius: 10px;
+    color:rgb(255, 255, 255);
+}
+div.mycontent div.book a input:hover{
+	background-color:rgb(33, 33, 33);
+	text-shadow: 2px 2px 2px blue;
+
+}
+div#info{
+    width:100%;
+    height: 400px;
+    background-color:rgb(36, 33, 33);
+    position: relative;
+    top:830px;
+    margin-left: -1.5%;
+    border-radius: 10px;
+}
+div#divone{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    float: left;
+}
+div#divtwo{
+    width:20%;
+    position: relative;
+    height: 50px;
+    bottom: 1px;
+    left:5%;
+}
+div#divtwo img{
+    width:100%;
+    margin-bottom: 10px;
+}
+div#divone ul#ulone li{
+    display: inline;
+}
+div#divone ul#ulone li a{
+    color: rgb(0, 110, 230);
+    padding-right: 30px;
+    padding-left: -10px;
+    position: relative;
+    top:25px;
+}
+div#divone ul#ulone li a:hover{
+    text-shadow: 1px 1px 1px black;
+}
+/*pizzas.blade.php*/
+p#second{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top:100px;
+}
+div#list1{
+    width:80%;
+    position: relative;
+    top:100px;
+    left:10%;
+    background-color: whitesmoke;
+}
+div#list1 table{
+    width:100%;
+}
+div#list1 table tr th{
+    border:1px solid black;
+    width:20%;
+}
+
+div#list1 table tr td{
+    border:1px solid black;
+    width:20%;
+}
+
+p#second1{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+p#second2{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+/*pizzas.show.blade.php*/
+div#link{
+    width:15%;
+    height: 40px;
+    background-color:rgb(255,255,255);
+    border-radius: 10px;
+    position: relative;
+    left:10%;
+    top:-50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+div#sf{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+div#click{
+    position: relative;
+    top:100px;
+}
+div#link a{
+    color:blue;
+}
+div#button1{
+    width:15%;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    left:75%;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+div#button1 form button{
+    border:2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color:blue;
+
+}
+/* pizzas.create.blade.php*/
+div.form1{
+    width:30%;
+    height: 400px;
+    background-color: rgb(255,255,255);
+    position: relative;
+    top:30px;
+    left:35%;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+div.form1 h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+div.form1 form table tr td{
+    padding-left: 15px;
+    width:80%;
+}
+div.form1 form table tr td input{
+    width:90%;
+}
+div.form1 form table tr td select{
+    width:90%;
+    height: 30px;
+}
+div.form2{
+    width:30%;
+    height: 400px;
+    background-color: rgb(255,255,255);
+    position: relative;
+    top:30px;
+    left:35%;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+div.form2 h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+div.form2 form table tr td{
+    padding-left: 15px;
+    padding-right: 15px;
+    width:80%;
+}
+div.form2 form table tr td input{
+    width:190px;
+    padding-left: 10px;
+
+}
+div.form2 form table tr td select{
+    width:190px;
+    height: 30px;
+}
+
+nav.myone{
+    background-color: rgb(0, 0, 0);
+}
+div.wrapper{
+    background-color:rgb(0, 0, 0);
+}
+aside.mysidebar{
+    background-color: rgb(0, 0, 0);
+}
+img.navpic{
+    border-radius: 10px;
+    width:230px;
+    height:170;
+}
+img#padding{
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
